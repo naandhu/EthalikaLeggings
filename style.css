@@ -1,20 +1,26 @@
 body {
-    background: #e0e5ec;
+    background: #e1f6ec;
   }
-  h1 {
+  .parent {
     position: relative;
-    text-align: center;
-    color: #353535;
-    font-size: 50px;
-    font-family: "Cormorant Garamond", serif;
   }
+  
+  .center-image {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+  }
+  
+
+  
   
   p {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     text-align: center;
     font-size: 18px;
-    color: #676767;
+    color: #676767;#e0e5ec
   }
   .frame {
     width: 90%;
